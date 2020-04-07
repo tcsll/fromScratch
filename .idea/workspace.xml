@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c17a5be4-030b-45c5-a367-8bab0532847b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test3/hdfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test3/hdfsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zzz/MineClearance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/other/Example14_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/other/ModifyTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/other/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/other/SequenceQuery.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,14 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hdfsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hdfsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test3/hdfsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="327">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarParkingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test5/CarParkingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -38,15 +47,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example14_8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/other/Example14_8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -92,6 +92,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -117,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/main/java/test3/hdfsCURDTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test3/hdfsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test5/CarParkingTest.java" />
       </list>
     </option>
   </component>
@@ -192,14 +200,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test3" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -212,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Myeclipse/Test" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -332,15 +332,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586165112802</updated>
-      <workItem from="1586165119925" duration="12531000" />
+      <workItem from="1586165119925" duration="13033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12531000" />
+    <option name="totallyTimeSpent" value="13033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.39173788" />
@@ -367,8 +368,8 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32913166" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49966776" weight="0.3277311" />
       <window_info anchor="bottom" id="CheckStyle" order="16" sideWeight="0.49900332" weight="0.25210086" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4976744" visible="true" weight="0.6375358" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4976744" weight="0.27532098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info anchor="bottom" id="SonarLint" order="18" weight="0.26890758" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900332" weight="0.15811966" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -536,13 +537,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/ModifyTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test3/hdfsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="327">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test5/CarParkingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
