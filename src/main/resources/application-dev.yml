@@ -1,0 +1,74 @@
+spring:
+  application:
+    name: ComService
+  datasource:
+    url: jdbc:mysql://172.26.164.38:3306/logistics?serverTimezone=Asia/Shanghai&useSSL=false&autoReconnect=true
+    username: logistics
+    password: Logistics@2019
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #    type: com.mchange.v2.c3p0.ComboPooledDataSource
+
+
+  #遇到同样的名字的时候,允许覆盖
+  main:
+    allow-bean-definition-overriding: true
+
+  cloud:
+    compatibility-verifier:
+      enabled: false
+
+
+  rabbitmq:
+    host: 172.26.164.38
+    port: 5672
+    username: logistics
+    password: Lg@2020
+    publisher-confirms: true
+    virtual-host: /
+
+  redis:
+    host: 172.26.164.38
+    port: 6379
+    password: dywl
+    database: 8
+
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      maxRequestSize: 100MB
+
+  #    pool:
+  #      max-idle: 8
+  #      min-idle: 0
+  #      max-active: 8
+  #      max-wait: -1
+  #    timeout: 5000
+  data:
+    mongodb:
+      host: 172.26.164.38
+      port: 27016
+      database: logistics
+
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+  global-config:
+    field-strategy: 0
+
+idWorker:
+  dataCenterId: 1
+  workerId: 1
+
+logging:
+  level:
+    com.diyi.logisticsservice: TRACE
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+
+
+
+mq-queue-name:
+  rabbitMqRoutingKey: local
+  rabbitMqQueue: local
+
