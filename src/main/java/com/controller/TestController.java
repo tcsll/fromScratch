@@ -1,13 +1,15 @@
 package com.controller;
 
-import com.component.SnowflakeIdWorker;
+import com.alibaba.fastjson.JSONObject;
+import com.component.snowflakeIdWorker.SnowflakeIdWorker;
+import com.consts.Param;
+import com.model.TcSll;
+import com.spring.util.spring.SpringUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+
 
 /**
  * @author ：shill
@@ -21,14 +23,66 @@ import javax.annotation.Resource;
 @RestController
 @RequestMapping(value = "test")
 public class TestController {
-    @Resource
-    private SnowflakeIdWorker snowflakeIdWorker;
 
-    @PostMapping("test")
-    public String test() {
+    /**
+     * springBoot 接收请求的几种方式
+     * 1.HttpServletRequest
+     * 2.封装好的实体类
+     * 3.@RequestBody注解+String data接收
+     * 4.@Param获取单个值
+     */
+    @PostMapping("request")
+    public String testGetBean(HttpServletRequest request) {
+        return request.getParameter(Param.NAME);
+    }
+
+
+
+    /**
+     * 测试自动获取getBean
+     *
+     * @return 是否getBean成功
+     */
+    @PostMapping("getBean")
+    public String testGetBean() {
+        SnowflakeIdWorker snowflakeIdWorker = SpringUtil.getBean(SnowflakeIdWorker.class);
         log.info(String.valueOf(snowflakeIdWorker.nextId()));
         return "SUCCESS";
     }
+
+
+    /**
+     * 测试自定义starter
+     *
+     * @return 测试自定义starter是否加在成功
+     */
+    @PostMapping("autoStarter")
+    public String testStarter() {
+        TcSll tcSll=new TcSll();
+        return tcSll.battle();
+    }
+
+
+
+    /**
+     * 测试AOP鉴权
+     *
+     * @return 测试AOP鉴权是否成功
+     */
+    @PostMapping("security")
+    public String testSecurity(@RequestBody JSONObject param) {
+        String finalValue="sll is god";
+        String name =param.getString("name");
+        if(finalValue.equals(name)){
+            return "最终还是成功了";
+        }
+        else {
+            return "失败了兄弟";
+        }
+    }
+
+
+
 
 
 }

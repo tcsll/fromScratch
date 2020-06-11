@@ -1,4 +1,4 @@
-package com.component;
+package com.component.snowflakeIdWorker;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author ：shill
  * @version : 1.0
- * @description :
+ * @description : 雪花算法
  * Twitter_Snowflake
  * SnowFlake的结构如下(每部分用-分开):
  * 0 - 0000000000 0000000000 0000000000 0000000000 0 - 00000 - 00000 - 000000000000
@@ -71,12 +71,12 @@ public class SnowflakeIdWorker {
     /**
      * 时间截向左移22位(5+5+12)
      */
-    private static final long timestampLeftShift = SEQUENCE_BITS + WORKER_ID_BITS + DATACENTER_ID_BITS;
+    private static final long TIMESTAMP_LEFT_SHIFT = SEQUENCE_BITS + WORKER_ID_BITS + DATACENTER_ID_BITS;
 
     /**
      * 生成序列的掩码，这里为4095 (0b111111111111=0xfff=4095)
      */
-    private static final long sequenceMask = -1L ^ (-1L << SEQUENCE_BITS);
+    private static final long SEQUENCE_MASK = -1L ^ (-1L << SEQUENCE_BITS);
 
     /**
      * 工作机器ID(0~31)
@@ -135,7 +135,7 @@ public class SnowflakeIdWorker {
 
         //如果是同一时间生成的，则进行毫秒内序列
         if (lastTimestamp == timestamp) {
-            sequence = (sequence + 1) & sequenceMask;
+            sequence = (sequence + 1) & SEQUENCE_MASK;
             //毫秒内序列溢出
             if (sequence == 0) {
                 //阻塞到下一个毫秒,获得新的时间戳
@@ -151,7 +151,7 @@ public class SnowflakeIdWorker {
         lastTimestamp = timestamp;
 
         //移位并通过或运算拼到一起组成64位的ID
-        return ((timestamp - TWEPOCH) << timestampLeftShift) //
+        return ((timestamp - TWEPOCH) << TIMESTAMP_LEFT_SHIFT) //
                 | (datacenterId << DATACENTER_ID_SHIFT) //
                 | (workerId << WORKER_ID_SHIFT) //
                 | sequence;

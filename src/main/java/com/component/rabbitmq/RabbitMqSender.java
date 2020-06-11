@@ -1,4 +1,4 @@
-package com.conf;
+package com.component.rabbitmq;
 
 
 import com.alibaba.fastjson.JSONObject;

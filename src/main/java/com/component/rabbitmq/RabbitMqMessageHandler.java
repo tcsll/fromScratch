@@ -1,4 +1,4 @@
-package com.conf;
+package com.component.rabbitmq;
 
 import lombok.extern.slf4j.Slf4j;
 
