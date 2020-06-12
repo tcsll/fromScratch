@@ -20,6 +20,13 @@ import javax.annotation.Resource;
 
 /**
  * @author shill
+ * @date ：Created in 2020-06-11 15:51
+ * @description :
+ * rabbitMq 使用场景:
+ * 1.异步处理 -- 短信/邮件
+ * 2.应用解耦 -- 用户下单后,订单系统需要通知库存系统
+ * 3.流量削峰 -- 可以控制活动人数，超过此一定阀值的订单直接丢弃(我为什么秒杀一次都没有成功过呢^^)
+ *
  */
 @Configuration
 public class RabbitMqConfig {

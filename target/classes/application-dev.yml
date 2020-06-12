@@ -26,11 +26,13 @@ spring:
     publisher-confirms: true
     virtual-host: /
 
+
+ #--------redis配置-----------
   redis:
     host: 172.26.164.38
     port: 6379
     password: dywl
-    database: 8
+    database: 5
 
 
   servlet:

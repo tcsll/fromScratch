@@ -1,10 +1,10 @@
 package com.controller;
 
+import com.SpringUtil;
 import com.alibaba.fastjson.JSONObject;
 import com.component.snowflakeIdWorker.SnowflakeIdWorker;
 import com.consts.Param;
 import com.model.TcSll;
-import com.spring.util.spring.SpringUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

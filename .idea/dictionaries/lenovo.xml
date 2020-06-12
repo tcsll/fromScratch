@@ -2,6 +2,7 @@
   <dictionary name="lenovo">
     <words>
       <w>hdfs</w>
+      <w>jedis</w>
     </words>
   </dictionary>
 </component>
