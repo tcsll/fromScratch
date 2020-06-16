@@ -1,9 +1,13 @@
 package com.component.redis.scene;
 
+import com.component.redis.util.RedisUtil;
+import com.component.redis.util.RedisUtilImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 import redis.clients.jedis.Jedis;
 
@@ -25,8 +29,12 @@ import javax.annotation.Resource;
 @SpringBootTest
 @Slf4j
 public class DistributedLockTest {
-    @Resource
-    private Jedis jedis;
+    private final RedisTemplate redisTemplateSelf;
+
+    @Autowired
+    public DistributedLockTest(RedisTemplate redisTemplateSelf) {
+        this.redisTemplateSelf = redisTemplateSelf;
+    }
 
     private static final String LOCK_SUCCESS = "OK";
     private static final String SET_IF_NOT_EXIST = "NX";
@@ -40,6 +48,8 @@ public class DistributedLockTest {
      * @return 是否获取成功
      */
     public boolean tryGetDistributedLock(String lockKey, String requestId, int expireTime) {
+
+        //redisTemplateSelf.opsForValue().set();
 
         // String result = jedis.set(lockKey, requestId, SET_IF_NOT_EXIST, SET_WITH_EXPIRE_TIME, expireTime);
         //

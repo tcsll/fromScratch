@@ -1,7 +1,9 @@
 package com.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.component.http.util.RequestUtil;
+import com.controller.inter.FeignInterface;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.log4j.Logger;
@@ -26,13 +28,12 @@ import java.util.Map;
  * @description : 传输协议 http 与 rpc
  */
 
-//@Slf4j
-
 @CrossOrigin
 @RestController
 @RequestMapping(value = "doPost")
 public class TestTransferProtocolController {
-    private Logger logger = Logger.getLogger(TestTransferProtocolController.class.getName());
+    @Resource
+    private FeignInterface feignInterface;
 
     @Resource
     private RestTemplate restTemplate;
@@ -75,6 +76,7 @@ public class TestTransferProtocolController {
 
         //转换成http entity
         HttpEntity<Map<String, String>> request = new HttpEntity<>(params, headers);
+        System.out.println(request.toString());
 
         //返回response entity
         ResponseEntity<String> response = restTemplate.postForEntity(POST_URL, request, String.class);
@@ -87,7 +89,23 @@ public class TestTransferProtocolController {
     }
 
 
+    @PostMapping(value = "feign")
+    public String doPostByFeign() {
+        buildParams();
+        System.out.println(params.toString());
+
+        JSONObject paramJson = JSONObject.parseObject(JSON.toJSONString(params));
+        System.out.println(paramJson.toJSONString());
+
+        String result = feignInterface.testFeign(paramJson);
+        System.out.println(result);
+        return result;
+    }
+
+
     //调用RPC请求的方式
+    //了解一下 dubbo 就好
+
 
 
 }

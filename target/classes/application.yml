@@ -7,7 +7,9 @@ server:
   port: 8090
 
 
-loopbackService:
-  url: http://192.168.0.55:8088
+
+#feign调用远端接口
+FeignServer:
+  url: http://api.poscom.cn/apisc
 
 

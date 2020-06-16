@@ -20,7 +20,7 @@ import java.util.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@Slf4j
+//@Slf4j
 public class HotSpotDataTest {
     @Resource
     private RedisUtilImpl redisUtilImpl;
@@ -48,10 +48,10 @@ public class HotSpotDataTest {
         // redisUtil.s
 
         //------------------取数据------------------
-        log.info("String类型:"+   redisUtilImpl.sGet("stringKey"));
-        log.info("Map类型:"+ redisUtilImpl.hmget("mapKey"));
-        log.info("Set类型:"+ redisUtilImpl.sGet("setKey"));
-        log.info("List类型:"+ redisUtilImpl.lGetIndex("listKey",0));
+        // log.info("String类型:"+   redisUtilImpl.sGet("stringKey"));
+        // log.info("Map类型:"+ redisUtilImpl.hmget("mapKey"));
+        // log.info("Set类型:"+ redisUtilImpl.sGet("setKey"));
+        // log.info("List类型:"+ redisUtilImpl.lGetIndex("listKey",0));
 
 
     }
