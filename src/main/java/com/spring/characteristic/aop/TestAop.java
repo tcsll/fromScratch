@@ -25,7 +25,7 @@ import java.util.Objects;
  * 安全 @PreAuthorize
  * 缓存 @Cacheable
  */
-@Slf4j
+//@Slf4j
 @Aspect
 @Component
 public class TestAop {
@@ -35,7 +35,7 @@ public class TestAop {
     * */
 
     /** @description : 权限控制到某个接口 */
-    @Pointcut(value = "execution(public * com.controller.TestController.testSecurity(..))")
+    @Pointcut(value = "execution(public * com.controller.TestSecurityController.testSecurity(..))")
     //@Pointcut(value = "execution(public * com.controller.*.*(..))")
 
     private void accessControl() {
@@ -47,23 +47,21 @@ public class TestAop {
     public void doBefore(JoinPoint joinPoint) {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = Objects.requireNonNull(attributes).getRequest();
-
-
-        log.info("在切面操作之前获取ip信息");
+        //log.info("在切面操作之前获取ip信息");
         //URL
-        log.info("URL={}", request.getRequestURL());
+       // log.info("URL={}", request.getRequestURL());
 
         //Method
-        log.info("Method={}", request.getMethod());
+      //  log.info("Method={}", request.getMethod());
 
         //IP
-        log.info("IP={}", request.getRemoteAddr());
+       // log.info("IP={}", request.getRemoteAddr());
 
         //Class.Method
-        log.info("CLass.Method={}", joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName() + "()");
+      //  log.info("CLass.Method={}", joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName() + "()");
 
         //Args
-        log.info("Args={}", joinPoint.getArgs());
+       // log.info("Args={}", joinPoint.getArgs());
 
         //...其余操作
 
@@ -73,21 +71,21 @@ public class TestAop {
     /** @description : 后置通知（After）：在目标方法完成之后调用通知，此时不会关心方法的输出是什么。 */
     @After("accessControl()")
     public void doAfter() {
-        log.info("无论正常异常都会输出");
+        //log.info("无论正常异常都会输出");
     }
 
 
     /** @description : 返回通知（After-returning）：在目标方法成功执行之后调用通知。 */
     @AfterReturning("accessControl()")
     public void doAfterReturning() {
-        log.info("正常返回结果");
+     //   log.info("正常返回结果");
     }
 
 
     /** @description : 异常通知（After-throwing）：在目标方法抛出异常后调用通知。 */
     @AfterThrowing("accessControl()")
     public void doAfterThrowing() {
-        log.info("异常返回结果");
+      //  log.info("异常返回结果");
     }
 
 

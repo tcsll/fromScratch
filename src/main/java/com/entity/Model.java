@@ -18,4 +18,9 @@ import lombok.experimental.FieldNameConstants;
 public class Model {
     private String id;
     private String name;
+
+    // public String getField(String field){
+    //   //  this.
+    //
+    // }
 }

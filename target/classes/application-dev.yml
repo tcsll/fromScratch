@@ -18,6 +18,8 @@ spring:
       enabled: false
 
 
+
+#-----------rabbitMq-----------
   rabbitmq:
     host: 172.26.164.38
     port: 5672
@@ -27,7 +29,8 @@ spring:
     virtual-host: /
 
 
- #--------redis配置-----------
+
+ #----------redis配置-----------
   redis:
     host: 172.26.164.38
     port: 6379
@@ -68,9 +71,4 @@ logging:
     com.diyi.logisticsservice: TRACE
     org.springframework.data.mongodb.core.MongoTemplate: DEBUG
 
-
-
-mq-queue-name:
-  rabbitMqRoutingKey: local
-  rabbitMqQueue: local
 

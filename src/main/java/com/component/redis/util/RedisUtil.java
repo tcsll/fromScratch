@@ -23,10 +23,6 @@ public interface RedisUtil {
      */
     boolean setNx(String key, Object value);
 
-
-
-
-    /** 如果键存在则改变已经有的值值 */
     boolean setEx(String key, Object value);
 
     Object get(String key);
