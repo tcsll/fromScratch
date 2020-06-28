@@ -1,0 +1,7 @@
+
+vsquid:S1488â"^Immediately return this expression instead of assigning it to the temporary variable "remove".(Ó‡âú
+zsquid:S1488•"]Immediately return this expression instead of assigning it to the temporary variable "count".(˜Åúùÿÿÿÿ
+_squid:S00112Ú"FDefine and throw a dedicated exception instead of using a generic one.(Ÿ½”
+Csquid:S1168¸"+Return an empty collection instead of null.(¥¹ï
+^squid:S00112È"FDefine and throw a dedicated exception instead of using a generic one.(ÄÊĞ8
+Csquid:S1168¦"+Return an empty collection instead of null.(¥¹ï

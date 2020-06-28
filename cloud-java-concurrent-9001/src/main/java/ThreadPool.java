@@ -1,5 +1,3 @@
-package com.component.threadpool;
-
 import java.util.concurrent.*;
 
 /**
@@ -15,12 +13,8 @@ public class ThreadPool {
 
     public ThreadPool() {
         ExecutorService selectDate =
-                new ThreadPoolExecutor(
-                        threadNum,
-                        maximumPoolSize,
-                        keepAliveTime,
-                        TimeUnit.MILLISECONDS,
-                        new LinkedBlockingQueue<Runnable>(),
+                new ThreadPoolExecutor(threadNum, maximumPoolSize, keepAliveTime, TimeUnit.MILLISECONDS,
+                        new LinkedBlockingQueue<>(),
                         new ThreadPoolExecutor.DiscardPolicy());
 
 

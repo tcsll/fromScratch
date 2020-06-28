@@ -1,0 +1,6 @@
+
+™squid:UselessImportCheck"iRemove this unused import 'org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer'.(ˆƒ’Îşÿÿÿÿ8¼¾äã«.
+fsquid:UselessImportCheck"6Remove this unused import 'javax.crypto.KeyGenerator'.(ÑÃ’§ÿÿÿÿÿ8ş‡Æã«.
+“squid:UselessImportCheck"cRemove this unused import 'org.springframework.data.redis.connection.jedis.JedisConnectionFactory'.(¨áøşÿÿÿÿ8†úˆã«.
+squid:UselessImportCheck
+"]Remove this unused import 'org.springframework.cloud.context.config.annotation.RefreshScope'.(­¾î²ûÿÿÿÿ8†úˆã«.

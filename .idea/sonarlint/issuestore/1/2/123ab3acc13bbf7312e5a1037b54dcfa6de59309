@@ -1,0 +1,10 @@
+
+Psquid:S1068"4Remove this unused "SET_IF_NOT_EXIST" private field.(ÉÇÿÊ8Ìˆ¢á«.
+_squid:UselessImportCheck"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8‘öä«.
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•ş¢ÿÿÿÿÿ8Ìˆ¢á«.
+Qsquid:S1068"0Remove this unused "LOCK_SUCCESS" private field.(¼•Åıÿÿÿÿ8Ìˆ¢á«.
+lsquid:UselessImportCheck"CRemove this unused import 'com.component.redis.util.RedisUtilImpl'.(‡çÔÀ8‘öä«.
+Vsquid:S1068"5Remove this unused "redisTemplateSelf" private field.(¤Â ¯úÿÿÿÿ8‹ïÑä«.
+dsquid:UselessImportCheck"6Remove this unused import 'redis.clients.jedis.Jedis'.(úœÅıÿÿÿÿ8•‡óã«.
+msquid:UselessImportCheck"?Remove this unused import 'com.component.redis.util.RedisUtil'.(Ä¶É…úÿÿÿÿ8¤şóã«.
+Tsquid:S1068"8Remove this unused "SET_WITH_EXPIRE_TIME" private field.(€êƒ8Ìˆ¢á«.
