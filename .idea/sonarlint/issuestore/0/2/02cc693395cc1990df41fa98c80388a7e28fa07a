@@ -1,4 +1,4 @@
 
-@squid:S2925<"$Remove this use of "Thread.sleep()".(€­íÜüÿÿÿÿ
-@squid:S2925$"$Remove this use of "Thread.sleep()".(€­íÜüÿÿÿÿ
-9squid:S2187"Add some tests to this class.(öÕ„ıÿÿÿÿ
+>squid:S2925"$Remove this use of "Thread.sleep()".(€­íÜüÿÿÿÿ
+7squid:S2187"Add some tests to this class.(öÕ„ıÿÿÿÿ
+>squid:S2925"$Remove this use of "Thread.sleep()".(€­íÜüÿÿÿÿ

@@ -6,6 +6,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>cloud-java-concurrent-9001</module>
+        <module>cloud-java-MyStarterTimer</module>
+        <module>cloud-java-Collection</module>
+        <module>cloud-java-aop</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

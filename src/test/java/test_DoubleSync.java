@@ -6,6 +6,9 @@
  * 在 Java 领域一个经典的案例就是利用双重检查创建单例对象，
  * 例如下面的代码：在获取实例 getInstance() 的方法中，我们首先判断 instance 是否为空，
  * 如果为空，则锁定 Singleton.class 并再次检查 instance 是否为空，如果还为空则创建 Singleton 的一个实例。
+ * 1.给 instance 分配内存
+ * 2.调用 Singleton 的构造函数来初始化成员变量
+ * 3.将instance对象指向分配的内存空间（执行完这步 instance 就为非 null 了）
  */
 
 public class test_DoubleSync {

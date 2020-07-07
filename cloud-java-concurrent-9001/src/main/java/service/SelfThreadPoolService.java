@@ -11,11 +11,8 @@ import java.util.concurrent.ExecutorService;
 
 public interface SelfThreadPoolService {
 
-    /**
-     * @param Threads
-     * @return
-     */
-    ExecutorService selfNewFiexedThreadPool(int Threads);
+
+    ExecutorService selfNewFiexedThreadPool(int threads);
 
     /**
      * @param Threads

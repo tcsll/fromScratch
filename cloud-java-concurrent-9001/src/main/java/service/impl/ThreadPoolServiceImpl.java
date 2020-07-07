@@ -17,13 +17,9 @@ import static java.util.concurrent.Executors.*;
 @Service
 public class ThreadPoolServiceImpl implements SelfThreadPoolService {
 
-    /**
-     * @param Threads
-     * @return
-     */
     @Override
-    public ExecutorService selfNewFiexedThreadPool(int Threads) {
-        return null;
+    public ExecutorService selfNewFiexedThreadPool(int threads) {
+        return newFixedThreadPool(threads);
     }
 
     /**

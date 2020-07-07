@@ -2,32 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c17a5be4-030b-45c5-a367-8bab0532847b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/SpringBootMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/SelfThreadPoolService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/impl/ThreadPoolServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/ControllerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/ControllerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_DoubleSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_MutiCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-Collection/cloud-java-collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-Collection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-Collection/src/main/java/hashCode/HashCodeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-Collection/src/main/java/hashCode/OverwriteTestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-Collection/src/main/java/hashCode/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-MyStarterTimer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/cloudjavaaop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/aspect/ApiExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/aspect/HttpAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/constraint/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/constraint/PhoneValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/consts/ApiExceptionConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/entity/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/mapper/StaffMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/service/StaffService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/GetStaffRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/GetStaffResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-aop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/AQS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/ForkJoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_DeadSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_MethodSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_NotifySync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_ResourcesSync.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02cc693395cc1990df41fa98c80388a7e28fa07a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02cc693395cc1990df41fa98c80388a7e28fa07a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a21bfd03edf7c4ed888e5f5fabe702b4d09900c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abb620bcf0942e932070bc6f9c9b8ed91c202e05" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abb620bcf0942e932070bc6f9c9b8ed91c202e05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6272cfab01ef604ad3d62b7d4f798ec9b81c5a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c35a64aa37722a1db9d44e402ff959bd97466d37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe5dd2c5fd870442fb282760c339682f69b892ca" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe5dd2c5fd870442fb282760c339682f69b892ca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/SelfThreadPoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/SelfThreadPoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/impl/ThreadPoolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/impl/ThreadPoolServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/a_interview/SpringBoot中用到哪些设计模式" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/a_interview/分布式场景题" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/annotation/login/LoginRequired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/annotation/login/LoginRequired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/component/threadpool/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/component/threadpool/ThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/component/threadpool/ThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_DoubleSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_DoubleSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/a_interview/SpringBoot中用到哪些设计模式" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/a_interview/分布式场景题" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/component/threadpool/ThreadPool.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/fromScratchModuleOne/target/" />
     <ignored path="$PROJECT_DIR$/cloud-java-concurrent-9001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-java-Collection/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-java-MyStarterTimer/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-java-aop/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,110 +68,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/ThreadPool.java">
+      <file leaf-file-name="ForkJoinTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/ForkJoinTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelfThreadPoolService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/SelfThreadPoolService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPoolServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/impl/ThreadPoolServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="380">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringBootMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/SpringBootMain.java">
+      <file leaf-file-name="AQS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/AQS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-              </folding>
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/Executors.java">
+      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="169" column="34" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="34" />
-              <folding>
-                <element signature="e#15215#15216#0" expanded="true" />
-                <element signature="e#15264#15265#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1539">
+              <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/pom.xml">
+      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="19">
+              <caret line="637" column="32" selection-start-line="637" selection-start-column="17" selection-end-line="637" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/resources/application.yml">
+      <file leaf-file-name="test_MutiCalc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test_MutiCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="19">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="test_NotifySync.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test_NotifySync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="91" selection-end-column="21" />
+            <state relative-caret-position="247">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloudjavaconcurrent9001.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/cloudjavaconcurrent9001.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="test_DeadSync.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test_DeadSync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_DoubleSync.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test_DoubleSync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_MethodSync.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test_MethodSync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/locks/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2527">
+              <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -174,38 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/SpringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/util/SpringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/SpringApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/SpringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/redis/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/redis/scene/HotSpotData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/redis/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/a_interview_question/分布式场景题" />
-        <option value="$PROJECT_DIR$/src/main/java/com/a_interview/分布式场景题" />
-        <option value="$PROJECT_DIR$/src/test/java/test1/ds.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/entity/Model.java" />
-        <option value="$PROJECT_DIR$/fromScratchModuleOne/pom.xml" />
-        <option value="$PROJECT_DIR$/fromScratchModuleOne/src/main/java/ModuleOneController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/TestStarerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/TestSecurityController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/http/RequestUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/mongodb/util/MongoUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/TestBeanController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/characteristic/aop/TestAop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/rabbitmq/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/http/conf/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/http/util/RequestUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/a_interview/SpringBoot中用到哪些设计模式" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/FeignInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/inter/FeignInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/rabbitmq/RabbitMqMessageHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/component/redis/scene/HotSpotDataTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/component/rabbitmq/RabbitMqSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/TestTransferProtocolController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/component/redis/util/JedisPoolUtil.java" />
@@ -214,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/component/redis/conf/RedisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/component/threadpool/ThreadPool.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_MutiCalc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test_DoubleSync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/annotation/login/LoginRequired.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/config/ControllerInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/config/ControllerConfig.java" />
@@ -223,8 +208,41 @@
         <option value="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/SpringBootMain.java" />
         <option value="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/ThreadPoolService.java" />
         <option value="$PROJECT_DIR$/cloud-java-concurrent-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/test_DoubleSync.java" />
         <option value="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/SelfThreadPoolService.java" />
         <option value="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/impl/ThreadPoolServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_MethodSync.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_ResourcesSync.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test10/testDeadSync.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testDeadSync.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_DeadSync.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test10/test_NotifySync.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_NotifySync.java" />
+        <option value="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/ForkJoinTest.java" />
+        <option value="$PROJECT_DIR$/cloud-java-Collection/src/main/java/ABean.java" />
+        <option value="$PROJECT_DIR$/cloud-java-Collection/src/main/java/TestBean.java" />
+        <option value="$PROJECT_DIR$/cloud-java-Collection/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/cloud-java-Collection/src/main/java/OverwriteTestBean.java" />
+        <option value="$PROJECT_DIR$/cloud-java-Collection/src/main/java/hashCode/TestBean.java" />
+        <option value="$PROJECT_DIR$/cloud-java-Collection/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/Controller/TestController.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/Bo/Staff.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/Constraint/Phone.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/Constraint/PhoneValidator.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/repository/StaffRepository.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/mapper/StaffRepository.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/mapper/StaffMapper.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/service/StaffService.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/aspect/HttpAspect.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/aspect/ApiExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/GetStaffResponse.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/GetStaffRequest.java" />
+        <option value="$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/AQS.java" />
       </list>
     </option>
   </component>
@@ -268,9 +286,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -290,68 +307,6 @@
               <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
               <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-java-concurrent-9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -365,7 +320,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/cloud2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -393,18 +348,18 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.component.http" />
       <recent name="com.annotation" />
       <recent name="com.component.redis" />
       <recent name="com.component" />
-      <recent name="com.service.query" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\fromScratch\cloud-java-aop\src\main\resources" />
+      <recent name="F:\fromScratch\cloud-java-aop\src\main\java\exception" />
       <recent name="F:\fromScratch\cloud-java-concurrent-9001\src\main\resources" />
       <recent name="F:\fromScratch\src\main\java\com\config" />
       <recent name="F:\fromScratch\src\main\resources" />
-      <recent name="F:\fromScratch\src\main\java\com" />
-      <recent name="F:\fromScratch\src\main\java\com\conf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,71 +374,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test_MutiCalc">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.ds" />
-      <module name="fromScratch" />
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="ForkJoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ForkJoinTest" />
+      <module name="cloudjavaconcurrent9001" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="HashCodeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashCode.HashCodeMain" />
+      <module name="cloud-java-collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="test_MethodSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_MethodSync" />
+      <module name="fromScratch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="test_MutiCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test_MutiCalc" />
       <module name="fromScratch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="HotSpotDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fromScratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.component.redis.scene.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.component.redis.scene" />
-      <option name="MAIN_CLASS_NAME" value="com.component.redis.scene.HotSpotDataTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="HotSpotDataTest.impl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fromScratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.component.redis.scene.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.component.redis.scene" />
-      <option name="MAIN_CLASS_NAME" value="com.component.redis.scene.HotSpotDataTest" />
-      <option name="METHOD_NAME" value="impl" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -501,16 +420,15 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SpringApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fromScratch" />
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudjavaaop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.SpringApp" />
+          <option name="PATTERN" value="exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringApp" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="exception.DemoApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -535,19 +453,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SpringApp" />
-      <item itemvalue="JUnit.HotSpotDataTest" />
-      <item itemvalue="JUnit.HotSpotDataTest.impl" />
-      <item itemvalue="Application.ds" />
       <item itemvalue="Application.test_MutiCalc" />
+      <item itemvalue="Application.test_MethodSync" />
+      <item itemvalue="Application.ForkJoinTest" />
+      <item itemvalue="Application.HashCodeMain" />
+      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="Application.HashCodeMain" />
+        <item itemvalue="Application.ForkJoinTest" />
+        <item itemvalue="Application.test_MethodSync" />
         <item itemvalue="Application.test_MutiCalc" />
-        <item itemvalue="Spring Boot.SpringApp" />
-        <item itemvalue="Application.ds" />
-        <item itemvalue="JUnit.HotSpotDataTest.impl" />
-        <item itemvalue="JUnit.HotSpotDataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +494,13 @@
       <workItem from="1592621844544" duration="599000" />
       <workItem from="1592967095662" duration="1181000" />
       <workItem from="1593325620278" duration="460000" />
-      <workItem from="1593326150425" duration="4607000" />
+      <workItem from="1593326150425" duration="9056000" />
+      <workItem from="1593396387725" duration="13641000" />
+      <workItem from="1593561566779" duration="8803000" />
+      <workItem from="1593610028520" duration="1632000" />
+      <workItem from="1593737382714" duration="10123000" />
+      <workItem from="1593782319194" duration="770000" />
+      <workItem from="1593842947120" duration="1892000" />
     </task>
     <servers />
   </component>
@@ -601,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195396000" />
+    <option name="totallyTimeSpent" value="236706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,11 +538,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.39087018" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50268096" side_tool="true" weight="0.34807417" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053619" side_tool="true" weight="0.15121256" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4991453" weight="0.39008042" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
@@ -637,11 +560,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49900332" weight="0.3277311" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" weight="0.23680456" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" weight="0.39372325" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49966776" weight="0.3277311" />
       <window_info anchor="bottom" id="CheckStyle" order="16" sideWeight="0.49900332" weight="0.25210086" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.467903" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25067025" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.2639087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25603217" />
       <window_info anchor="right" id="Bean Validation" order="7" sideWeight="0.4991453" weight="0.32956812" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="18" weight="0.26890758" />
@@ -672,319 +595,10 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fromScratchModuleOne/src/main/java/ModuleOneController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/mongodb/util/MongoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/characteristic/aop/TestAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/http/conf/RestTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/http/util/RequestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/SoftWare/Jdk1.8/jre/lib/jce.jar!/javax/crypto/KeyGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/redis/util/JedisPoolUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/redis/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/redis/util/RedisUtilImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1406">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/redis/scene/TimeLimitedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/redis/scene/HotSpotDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/redis/conf/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/rabbitmq/RabbitMqMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/rabbitmq/RabbitMqQueueConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/rabbitmq/RabbitMqSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/redis/scene/DistributedLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/component/rabbitmq/RabbitMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SpringApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SpringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23028">
-          <caret line="1272" column="31" selection-start-line="1272" selection-start-column="31" selection-end-line="1272" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-          <folding>
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/SoftWare/Jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test1/FourGRobusServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11827#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test_DoubleSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/a_interview/SpringBoot中用到哪些设计模式">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/a_interview/分布式场景题">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test_MutiCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/TestSecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/login/LoginRequired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/ControllerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/ControllerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/consts/Param.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/inter/FeignInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/TestBeanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/TestStarerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/TestTransferProtocolController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/cloudjavaconcurrent9001.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -994,19 +608,29 @@
     </entry>
     <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="2432">
           <caret line="169" column="34" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="34" />
-          <folding>
-            <element signature="e#15215#15216#0" expanded="true" />
-            <element signature="e#15264#15265#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/SpringBootMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/impl/ThreadPoolServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/SelfThreadPoolService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1017,47 +641,327 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/SpringBootMain.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test2/DeadLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="209">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_ResourcesSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3097">
+          <caret line="165" column="28" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12768">
+          <caret line="720" column="27" selection-start-line="720" selection-start-column="15" selection-end-line="720" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/FinanceApplicationTests.java" />
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48013">
+          <caret line="2587" column="31" selection-start-line="2587" selection-start-column="31" selection-end-line="2587" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/SelfThreadPoolService.java">
+    <entry file="file://$PROJECT_DIR$/cloud-java-Collection/src/main/java/hashCode/TestBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="304">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/service/impl/ThreadPoolServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-java-Collection/src/main/java/hashCode/HashCodeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="608">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-Collection/src/main/java/hashCode/OverwriteTestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-Collection/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="236">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2919">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/entity/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/mapper/StaffMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/aspect/HttpAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/GetStaffResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/constraint/PhoneValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/constraint/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/service/StaffService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/Valid.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/util/GetStaffRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/consts/ApiExceptionConsts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/aspect/ApiExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-aop/src/main/java/exception/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/AQSTest.java" />
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2527">
+          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/ForkJoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-java-concurrent-9001/src/main/java/test/AQS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/SoftWare/Jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="637" column="32" selection-start-line="637" selection-start-column="17" selection-end-line="637" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_NotifySync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_MutiCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_DeadSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_DoubleSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_MethodSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1113,7 +1017,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloudjavaconcurrent9001</last-edited>
+          <last-edited>cloudjavaaop</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

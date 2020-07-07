@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-java-collection" />
+        <module name="cloudjavaaop" />
         <module name="cloudjavaconcurrent9001" />
+        <module name="cloudjavaMyStarterTimer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
